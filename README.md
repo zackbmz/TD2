@@ -14,7 +14,7 @@ La classe CartePizzeria doit implémenter les méthodes suivantes :
 - is_empty() -> retourne un booléen indiquant si la carte est vide ou non
 - nb_pizzas() -> retourne le nombre de pizzas de la carte
 - add_pizza(pizza) -> ajoute une pizza à la carte
-- remove_pizza(name) -> retire la pizza nommée `name` de la carte, si celle-ci n'existe pas, lève une exception `CartePizzeriaException`
+- remove_pizza(name) -> retire la pizza nommée `name` de la carte, une exception `CartePizzeriaException` doit être levée si celle-ci n'existe pas
 
 Pour cela il est attendu que vous utilisiez Git (en particulier les commandes `commit`, `branch`, `push`, ...)
 
