@@ -16,4 +16,4 @@ class CartePizzeria:
             if pizza.name == name:
                 del self.pizzas[i]
                 return
-            else CartePizzeriaException(f"La pizza '{name}' n'existe pas dans la carte.")
+            raise CartePizzeriaException(f"La pizza '{name}' n'existe pas dans la carte.")
